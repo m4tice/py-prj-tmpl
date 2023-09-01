@@ -4,7 +4,11 @@ This Git repo serves as a template for a newly started Python Project
 **Commit message**  
 Please start the commit message with the following tags:  
 
-* Add new file / code
+* Create new file 
+```
+Create <message>  
+```
+* Add new code 
 ```
 Add <message>  
 ```
