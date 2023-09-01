@@ -2,7 +2,6 @@
 This Git repo serves as a template for newly started Python Project  
 
 **Pylint** 
-
 Github commit of this project is managed with Pylint.  
 Pylint warnings will prevent the commit action until all the warnings are resolved.  
 In case you cannot resolve the warning, leave the following comment at end of the same line  
