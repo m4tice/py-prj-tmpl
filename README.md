@@ -1,9 +1,9 @@
 # Introduction  
 This Git repo serves as a template for a newly started Python Project  
-Compatible with:  
-* Python 3.8  
-* Python 3.9  
-* Python 3.10  
+Compatible Python version:  
+* 3.8  
+* 3.9  
+* 3.10  
 
 
 **Commit message**  
