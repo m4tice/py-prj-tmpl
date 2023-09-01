@@ -31,4 +31,4 @@ In case you want to disable pylint check with the whole file, put the following 
     # pylint: skip-file  
     ```
 
-You might not like it, but that's how I'd like to keep things in places ;)
+You might not like it, but that's my preference to keep things in places ;)
