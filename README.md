@@ -1,12 +1,20 @@
-# Introduction
+# Introduction  
 This Git repo serves as a template for a newly started Python Project  
 
 **Commit message**  
 Please start the commit message with the following tags:  
+
+* Add new file / code
 ```
-* Add <message>
-* Update <message>
-* Remove <messasge>
+Add <message>  
+```
+* Update file / code
+```
+Update <message>
+```
+* Remove file / code
+```
+Remove <messasge>
 ```  
 
 **Pylint**  
