@@ -1,5 +1,6 @@
 """Ultilities"""
 
+
 def get_none():
     """
     This function return None
