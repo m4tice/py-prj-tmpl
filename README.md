@@ -1,6 +1,14 @@
 # Introduction
 This Git repo serves as a template for a newly started Python Project  
 
+**Commit message**  
+Please start the commit message with the following tags:  
+```
+* Add <message>
+* Update <message>
+* Remove <messasge>
+```  
+
 **Pylint**  
 Github's commitment to this project is managed with Pylint.  
 Pylint warnings will prevent the commit until all the warnings are resolved.  
