@@ -11,6 +11,6 @@ def print_hello_world():
     """
     This is a function / method docstring
     """
-    print("Hello Wolrd Hello Wolrd Hello Wolrd Hello Wolrd Hello Wolrd Hello Wolrd Hello Wolrd Hello Wolrd Hello Wolrd Hello Wolrd Hello Wolrd")  #pylint: disable=line-too-long
+    print("Hello Wolrd Hello Wolrd Hello Wolrd Hello Wolrd Hello Wolrd Hello Wolrd Hello Wolrd Hello Wolrd Hello Wolrd Hello Wolrd")  #pylint: disable=line-too-long
 
 # This is a new empty line but it resolves newline missing warning
