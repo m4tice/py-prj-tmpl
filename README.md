@@ -1,5 +1,10 @@
 # Introduction  
 This Git repo serves as a template for a newly started Python Project  
+Compatible with:  
+* Python 3.8  
+* Python 3.9  
+* Python 3.10  
+
 
 **Commit message**  
 Please start the commit message with the following tags:  
@@ -20,6 +25,7 @@ Update <message>
 ```
 Remove <messasge>
 ```  
+
 
 **Pylint**  
 Github's commitment to this project is managed with Pylint.  
