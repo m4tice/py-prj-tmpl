@@ -10,7 +10,7 @@ For example:
     Pylint warning:  
         ```
         Line too long (145/100) Pylint(C0301:line-too-long)  
-        ```
+        ```  
 
 
     To disable it:  
@@ -21,7 +21,11 @@ For example:
 In case you want to disable pylint check with the whole file, put the following comment at the beginning of the *.py module:  
 
 Pylint < 0.25:  
+    ```
     # pylint: disable-all  
-
+    ```  
+    
 Pylint 0.26.1 ->:  
+    ```
     # pylint: skip-file  
+    ```
