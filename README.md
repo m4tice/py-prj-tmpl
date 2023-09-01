@@ -1,10 +1,10 @@
 # Introduction
-This Git repo serves as a template for newly started Python Project  
+This Git repo serves as a template for a newly started Python Project  
 
-**Pylint** 
-Github commit of this project is managed with Pylint.  
-Pylint warnings will prevent the commit action until all the warnings are resolved.  
-In case you cannot resolve the warning, leave the following comment at end of the same line  
+**Pylint**  
+Github's commitment to this project is managed with Pylint.  
+Pylint warnings will prevent the commit until all the warnings are resolved.  
+In case you cannot resolve the warning, leave the following comment at the end of the same line  
 
     # pylint: disable=<pylint-warning-1>, <pylint-warning-2>, etc.
 
@@ -31,4 +31,4 @@ In case you want to disable pylint check with the whole file, put the following 
     # pylint: skip-file  
     ```
 
-You might not like it, but that's my preference to keep things in places ;)
+You might not like it, but that's my preference to keep things in place ;)
