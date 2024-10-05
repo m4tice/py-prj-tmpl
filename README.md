@@ -53,7 +53,7 @@ pytest -vv
 
 
 **SQL Database handling**  
-Reference: https://github.com/m4tice/python-sqlite3  
+Reference: [m4tice-python-sqlite3](https://github.com/m4tice/python-sqlite3)  
 
 
 **Web Development**  
