@@ -52,7 +52,7 @@ pytest -vv
 ```  
 
 
-**Web Development**
+**Web Development**  
 Command to run flask application
 ```
 flask run
