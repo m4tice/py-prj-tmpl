@@ -2,7 +2,6 @@
 This Git repo serves as a template for a newly started Python Project  
 
 
-
 **Git commit message**  
 Please start the commit message with the following tags:  
 
@@ -24,13 +23,26 @@ remove: <messasge>
 ```  
 
 
-
 **Environment handling**  
-Command to create new python virtual environment
+* Command to create new python virtual environment
 ```
 python<version> -m venv <virtual-environment-name>
 ```  
 
+* Command to activate created virtual environment
+```
+.venv\Scripts\activate.bat
+```  
+
+* Command to install libraries listed in requirements.txt
+```
+pip install -r requirements.txt
+```  
+
+* Command to export existing libraries to requirements.txt
+```
+pip freeze > requirements.txt
+```  
 
 
 **Pytest**  
@@ -39,6 +51,26 @@ Command to run pytest
 pytest -vv
 ```  
 
+
+**Web Development**
+Command to run flask application
+```
+flask run
+```
+or in debug mode
+```
+flask run --debug
+```  
+
+Command to run fastapi application
+with fastapi[standard]
+```
+fastapi dev main.py
+```
+or
+```
+uvicorn main:app --reload
+```  
 
 
 **Pylint**  
