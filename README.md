@@ -3,6 +3,7 @@ This Git repo serves as a template for a newly started Python Project.
 Outline:  
 * Git commit message  
 * Environment handling  
+* Project structure management  
 * Pytest  
 * SQL Database handling  
 * Web Development  
@@ -52,18 +53,22 @@ pip freeze > requirements.txt
 ```  
 
 
-**3. Pytest**  
+**3. Project structure management**  
+Run init_structure.bat to create the desire project structure.  
+
+
+**4. Pytest**  
 Command to run pytest
 ```
 pytest -vv
 ```  
 
 
-**4. SQL Database handling**  
+**5. SQL Database handling**  
 Reference: [m4tice-python-sqlite3](https://github.com/m4tice/python-sqlite3)  
 
 
-**5. Web Development**  
+**6. Web Development**  
 Command to run flask application
 ```
 flask run
@@ -84,7 +89,7 @@ uvicorn main:app --reload
 ```  
 
 
-**6. Pylint**  
+**7. Pylint**  
 Github's commitment to this project is managed with Pylint.  
 Pylint warnings will prevent the commit until all the warnings are resolved.  
 In case you cannot resolve the warning, leave the following comment at the end of the same line  
