@@ -11,19 +11,19 @@ Please start the commit message with the following tags:
 
 * Create new file 
 ```
-Create <message>  
+create: <message>  
 ```
 * Add new code 
 ```
-Add <message>  
+add: <message>  
 ```
 * Update file / code
 ```
-Update <message>
+update: <message>
 ```
 * Remove file / code
 ```
-Remove <messasge>
+remove: <messasge>
 ```  
 
 
