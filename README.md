@@ -52,6 +52,10 @@ pytest -vv
 ```  
 
 
+**SQL Database handling**  
+Reference: https://github.com/m4tice/python-sqlite3  
+
+
 **Web Development**  
 Command to run flask application
 ```
