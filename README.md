@@ -1,8 +1,15 @@
 # Introduction  
-This Git repo serves as a template for a newly started Python Project  
+This Git repo serves as a template for a newly started Python Project.  
+Outline:  
+* Git commit message  
+* Environment handling  
+* Pytest  
+* SQL Database handling  
+* Web Development  
+* Pylint  
 
 
-**Git commit message**  
+**1. Git commit message**  
 Please start the commit message with the following tags:  
 
 * Create new file 
@@ -23,7 +30,7 @@ remove: <messasge>
 ```  
 
 
-**Environment handling**  
+**2. Environment handling**  
 * Command to create new python virtual environment
 ```
 python<version> -m venv <virtual-environment-name>
@@ -45,18 +52,18 @@ pip freeze > requirements.txt
 ```  
 
 
-**Pytest**  
+**3. Pytest**  
 Command to run pytest
 ```
 pytest -vv
 ```  
 
 
-**SQL Database handling**  
+**4. SQL Database handling**  
 Reference: [m4tice-python-sqlite3](https://github.com/m4tice/python-sqlite3)  
 
 
-**Web Development**  
+**5. Web Development**  
 Command to run flask application
 ```
 flask run
@@ -77,7 +84,7 @@ uvicorn main:app --reload
 ```  
 
 
-**Pylint**  
+**6. Pylint**  
 Github's commitment to this project is managed with Pylint.  
 Pylint warnings will prevent the commit until all the warnings are resolved.  
 In case you cannot resolve the warning, leave the following comment at the end of the same line  
