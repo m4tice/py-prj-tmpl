@@ -1,12 +1,8 @@
 # Introduction  
 This Git repo serves as a template for a newly started Python Project  
-Compatible Python version:  
-* 3.8  
-* 3.9  
-* 3.10  
 
 
-**Commit message**  
+**Git commit message**  
 Please start the commit message with the following tags:  
 
 * Create new file 
@@ -24,6 +20,20 @@ update: <message>
 * Remove file / code
 ```
 remove: <messasge>
+```  
+
+
+**Environment handling**  
+Command to create new python virtual environment
+```
+python<version> -m venv <virtual-environment-name>
+```  
+
+
+**Pytest**  
+Command to run pytest
+```
+pytest -vv
 ```  
 
 
