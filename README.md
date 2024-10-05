@@ -2,6 +2,7 @@
 This Git repo serves as a template for a newly started Python Project  
 
 
+
 **Git commit message**  
 Please start the commit message with the following tags:  
 
@@ -23,6 +24,7 @@ remove: <messasge>
 ```  
 
 
+
 **Environment handling**  
 Command to create new python virtual environment
 ```
@@ -30,11 +32,13 @@ python<version> -m venv <virtual-environment-name>
 ```  
 
 
+
 **Pytest**  
 Command to run pytest
 ```
 pytest -vv
 ```  
+
 
 
 **Pylint**  
